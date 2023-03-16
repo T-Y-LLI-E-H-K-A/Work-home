@@ -1,0 +1,20 @@
+.wrapper {
+    padding: 100px 100px;
+    background: #232121;
+}
+
+.block {
+    height: 40vh;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px aqua;
+    border-radius: 10px;
+}
+
+.block_1 {
+    background:space  url('../img/img1.png') center / 0.8% , linear-gradient(150deg, aqua 10%, #003939 90%);
+}
+.block_2 {
+    background-image:url(../img/img2.png), linear-gradient(aqua 15%, #004646 95%);
+    background-repeat: repeat-x;
+    background-size: 33% 100%;
+}
