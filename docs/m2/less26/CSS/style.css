@@ -1,0 +1,32 @@
+body {
+    color: aqua;
+    background-color: #232121;
+}
+.wrapper {
+    padding-top: 200px;
+    height: 100vh;
+}
+
+.block {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid #01cbcb;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #007777;
+    margin-bottom: 100px;
+}
+
+.tr_1 {
+    transition: 2s 3s;
+}
+.tr_2 {
+    transition-property: border-color, box-shadow, background-color;
+    transition-duration: 3s;
+    transition-delay: 2s;
+}
+
+.block:hover {
+    border-color: 5px solid #00e1ff;
+    box-shadow: 0 0 30px #0094c6;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: #232121;
+    color: aqua;
+    font-size: 30px;
+}
+
+.wrapper {
+    padding: 100px 150px;
+    height: 100%;
+}
+
+.container {
+    height: 70vh;
+    width: 100%;
+}
+
+.item {
+    border: 5px dashed aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr) minmax(100px,200px) repeat(2, 1fr);
+}
